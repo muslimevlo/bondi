@@ -32,6 +32,7 @@
             line-height: 27px;
         }
     }
+    
 
     &__search {
         display: flex;
@@ -258,6 +259,9 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
+}
+.hamburger-menu{
+    display: none;
 }
 
 

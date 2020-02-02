@@ -1,0 +1,264 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+.header{
+    background-color: #19283f;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 730px;
+    
+    &__menu{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        max-width: 1455px;
+        top: 31px;
+        left: 310px;
+
+        &-logo {
+            margin-right: auto;
+        }
+        
+        &-list{
+            color: #a8b9c0;
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 27px;
+        }
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+        margin-right: 22px;
+
+        &-label {
+            cursor: pointer;
+        }
+
+        &-input {
+            display: none;
+        }
+    }
+}
+.header__title{
+    color: #f0f8fb;
+    font-family: Roboto;
+    font-size: 51px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-top: 207px;
+}
+.header__subtitle{
+    color: #a8b9c0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+.services{
+    text-align: center;
+}
+
+.services__top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.services__top-item{
+    width: 30%;
+}
+.item__photo{
+    position: relative;
+}
+.item__title{
+    color: #ffc501;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-top: 36px;
+}
+.item__subtitle{
+    color: #a8b9c0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 38px;
+}
+.item__photo-icon{
+    position: absolute;
+    bottom: 0;
+    left: 138px;
+}
+// .item-1{
+//     background-image: url(../img/icon_1.png);
+//     background-position: 0 0;
+// }
+
+.about{
+    text-align: center;
+    &__design{
+        display: flex;
+        margin-top: 58px;
+        // position: relative;
+    }
+    
+}
+.about__design-info{
+    text-align: left;
+    width: 40%;
+}
+.about__design-img{
+    // position: absolute;
+}
+.design__info-title{
+    color: #1a2940;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.design__info-text{
+    color: #a8b9c0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+// ######################team###################3
+
+.team{
+    text-align: center;
+    padding: 114px 0 60px;
+}
+.meetteam{
+    background-color: #eff7fa
+}
+.team__header-title{
+    color: #ffc501;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.team__header-subtitle{
+    color: #a8b9c0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 100px;
+    padding-top: 32px;
+}
+.team__list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+}
+.team__list-icon{
+    width: 20%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.list-icon__img{
+    min-height: 220px;
+}
+.list-icon__name{
+    background-color: #00c6bf;
+    opacity: 0.8;
+    padding: 14px 45px;
+}
+.list-icon__text{
+    color: #a8b9c0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 30px;
+}
+// ###############icon######################
+.icon__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    // &-img{
+    //     padding: 52px;
+    // }
+    // a:first-child{
+    //     padding-left: 0;
+    // }
+}
+// ######################project################
+.project{
+    text-align: center;
+    background-color: #19283f;
+    &__title{
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 27px;
+        padding-top: 115px;
+    }
+    &__subtitle{
+        color: #a8b9c0;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    &__btn{
+        padding-bottom: 115px;
+    }
+}
+
+// ################blog####################################
+
+.ourblog{
+    text-align: center;
+}
+.blog{
+    padding-top: 78px;
+    display: flex;
+    justify-content: space-between;
+    &__item{
+        width: 30%;
+        text-align: left;
+        padding-bottom: 55px;
+    }
+}
+.blog__item-img{
+    min-height: 130px;
+    width: 100%;
+     background-color: #eff7fa;
+}
+.blog__item-data{
+    color: #a8b9c0;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.blog__item-name{
+    color: #1a2940;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+@import "media";

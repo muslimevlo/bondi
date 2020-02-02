@@ -1,0 +1,110 @@
+@media (max-width: 1156px){
+    .header{
+        min-height: 600px;
+    }
+    .header__menu{
+        max-width: 1041px;
+        left: 80px;
+    }
+    .header__title{
+        font-size: 38px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 900px){
+    .header__menu{
+        max-width: 875px;
+        left: 18px;
+    }
+    .button{
+        width: 140px;
+        font-size: 13px;
+    }
+    .header__title{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .header{
+        min-height: 480px;
+    }
+    .service__top{
+        padding: 0 15px;
+    }
+    .item__photo-icon{
+        left: 112px;
+    }
+    .item__title{
+        margin-top: 25px;
+        margin-top: 25px;
+    }
+    .item__subtitle{
+        margin-top: 16px;
+        font-size: 13px;
+    }
+    .block__header-title{
+        font-size: 30px;
+        margin-top: 35px;
+    }
+    .block__header-subtitle{
+        font-size: 12px;
+        margin-top: 9px;
+    }
+    .block__header-text{
+        font-size: 13px;
+        margin-top: 7px;
+    }
+    .about__design{
+        margin-top: 35px;
+    }
+    .design__info-title{
+        font-size: 22px;
+    }
+    .design__info-text{
+        font-size: 14px;
+    }
+    .team{
+        padding: 27px 0 40px;
+        &__header-title{
+            font-size: 32px;
+        }
+        &__header-subtitle{
+            font-size: 13px;
+            padding: 0 100px;
+        }
+        &__list{
+            padding: 25px;
+            &-icon{
+                min-height: 300px;
+            }
+        }
+    }
+    .list-icon__img{
+        min-height: 160px;
+    }
+    .list-icon__name{
+        padding: 9px 15px;
+        font-size: 15px;
+    }
+    .list-icon__text{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .icon__block{
+        width: auto;
+        padding: 0 20px;
+    }
+    .project__title{
+        font-size: 31px;
+        padding-top: 80px;
+    }
+    .project__subtitle{
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+    .blog {
+        padding: 40px 20px 10px 20px;
+    }
+}
+@media (max-width: 540px){
+    
+}
